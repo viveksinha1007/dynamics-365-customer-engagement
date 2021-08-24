@@ -103,14 +103,16 @@ In Field Service, go to **Field Service Settings** > **Customer Portal** > **Cus
 Configure the following settings, as needed: 
 
 - **Send self-scheduling experience to Account Contacts**: When enabled, new contacts who are associated with active Field Service accounts will be sent an email that invites the contact to create a Power Apps portals account for self-scheduling. More information: [Notification types](#notification-types)
-
     >[!NOTE]
     >When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
+ 
+    - Email invites can also be sent to individual Contacts by opening the Contact record and clicking on 'Send Invitation' button on the ribbon.  
+
 
 - **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. More information: [Notification types](#notification-types)
 
-- **Communication Type**: Define whether the customer will receive email, SMS, or both message types. 
-- 
+- **Communication Type**: Define whether the customer will receive email, SMS, or both message types.
+
 - **Send Messages To**: This feature is only used with [Track My Technician](reminders-arrival-time.md).  
 
 - **Include Survey (Preview)**: This feature is only used with [Track My Technician](reminders-arrival-time.md). 
@@ -156,7 +158,8 @@ Let's take a look at the self-scheduling settings, and what they do:
 - **Maximum lead time for new bookings**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
 - **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking.
 - **Enable Additional Details**: When this option is enabled, the customer can submit text to your organization while scheduling their booking. This text will be saved as a note on the booking timeline.
-- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. A value of **0** means there is no maximum radius.
+- **Default Radius Unit**: Sets the unit of the Radius value set for **Include Resource with maximum travel radius**
+- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. It should be a non-zero value.
 
 
 > [!div class="mx-imgBorder"]
